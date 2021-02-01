@@ -42,6 +42,10 @@ size_t listint_len(const listint_t *h);
 void cocktail_sort_list(listint_t **list);
 void counting_sort(int *array, size_t size);
 int *int_array_init(size_t size);
+int *int_array_copy(int *array, size_t size);
+void top_down_merge(int *a, int *b, size_t size, size_t mid);
+void top_down_split_merge(int *a, int *b, size_t size);
+void merge_sort(int *array, size_t size);
 
 
 #endif
