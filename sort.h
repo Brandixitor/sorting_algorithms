@@ -60,7 +60,7 @@ void swap_next(deck_node_t **deck, deck_node_t *node);
 size_t deck_len(const deck_node_t *h);
 int card_to_int(deck_node_t *node);
 void sort_deck(deck_node_t **deck);
-
+void print_list(const listint_t *list);
 
 
 #endif
