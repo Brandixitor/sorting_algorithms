@@ -40,6 +40,8 @@ void insertion_sort_list(listint_t **list);
 void swap_next(listint_t **list, listint_t *node);
 size_t listint_len(const listint_t *h);
 void cocktail_sort_list(listint_t **list);
+void counting_sort(int *array, size_t size);
+int *int_array_init(size_t size);
 
 
 #endif
