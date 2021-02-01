@@ -56,6 +56,11 @@ void compare(int *array, int dir, size_t size);
 void merge(int *array, int dir, size_t size);
 void sort(int *array, int dir, size_t size, size_t subsiz);
 void bitonic_sort(int *array, size_t size);
+void swap_next(deck_node_t **deck, deck_node_t *node);
+size_t deck_len(const deck_node_t *h);
+int card_to_int(deck_node_t *node);
+void sort_deck(deck_node_t **deck);
+
 
 
 #endif
