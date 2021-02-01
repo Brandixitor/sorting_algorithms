@@ -18,5 +18,5 @@
 *    A list/array does not need to be sorted if its size is less than 2.
 
 
-*Contributors: *
+*Contributors:*
 Med Salah Bourouba (Brandixitor)
