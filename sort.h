@@ -46,6 +46,17 @@ int *int_array_copy(int *array, size_t size);
 void top_down_merge(int *a, int *b, size_t size, size_t mid);
 void top_down_split_merge(int *a, int *b, size_t size);
 void merge_sort(int *array, size_t size);
+void swap_values(int **array, ssize_t i1, ssize_t i2);
+void heap_sort_sift_down(int *array, size_t size, size_t start, size_t end);
+void heap_sort(int *array, size_t size);
+int *int_array_init(size_t size);
+void count_sort(int *array, size_t size, int exp);
+void radix_sort(int *array, size_t size);
+void compare(int *array, int dir, size_t size);
+void merge(int *array, int dir, size_t size);
+void sort(int *array, int dir, size_t size, size_t subsiz);
+void bitonic_sort(int *array, size_t size);
 
 
 #endif
+
