@@ -55,4 +55,4 @@ typedef struct deck_node_s
 void print_deck(const deck_node_t *deck);
 void sort_deck(deck_node_t **deck);
 
-#endif
+#endif /* DECK_H */
